@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.75" branch-rate="0.5" lines-covered="6" lines-valid="8" branches-covered="1" branches-valid="2" complexity="1.5" version="1.9.4.1" timestamp="1588613929212">
+	<sources>
+		<source>--source</source>
+		<source>C:/Users/10143/mycode/Hello/src/main/java</source>
+	</sources>
+	<packages>
+		<package name="com.atguigu.maven" line-rate="0.75" branch-rate="0.5" complexity="1.5">
+			<classes>
+				<class name="com.atguigu.maven.Count" filename="com/atguigu/maven/Count.java" line-rate="0.6666666666666666" branch-rate="0.5" complexity="2.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="3" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="add" signature="(II)I" line-rate="0.8" branch-rate="0.5">
+							<lines>
+								<line number="5" hits="1" branch="false"/>
+								<line number="6" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="7" hits="0" branch="false"/>
+								<line number="9" hits="1" branch="false"/>
+								<line number="11" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="0" branch="false"/>
+						<line number="5" hits="1" branch="false"/>
+						<line number="6" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="7" hits="0" branch="false"/>
+						<line number="9" hits="1" branch="false"/>
+						<line number="11" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.atguigu.maven.Hello" filename="com/atguigu/maven/Hello.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="2" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="sayHello" signature="(Ljava/lang/String;)Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="4" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="2" hits="1" branch="false"/>
+						<line number="4" hits="1" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
